@@ -1,0 +1,42 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+  padding: 10px;
+  margin: 10px;
+}
+
+.shelves-container {
+  width:100%;
+  display: grid;
+  padding:10px;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.shelf-title {
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 90%;
+}
+
+.buttons {
+  padding: 10px;
+  display: flex;
+  margin:auto;
+}
+
+.single-order {
+  text-align: center;
+}
